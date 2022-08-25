@@ -4,9 +4,9 @@ require('dotenv').config();
 
 const cors = require('cors');
 
-const getWeather = require('./modules/weather.js');
+const {getWeather} = require('./modules/weather');
 
-const getMovies = require('./modules/movie');
+const {getMovies} = require('./modules/movie.js');
 
 const app = express();
 app.use(cors());
@@ -15,7 +15,6 @@ const PORT = process.env.PORT;
 
 //WEATHER INFO
 app.get('/weather', getWeather)
-
 
 
 //MOVIE INFO

@@ -29,4 +29,4 @@ class movieResult {
     }
 }
 
-module.exports = getMovies;
+module.exports = {getMovies};
