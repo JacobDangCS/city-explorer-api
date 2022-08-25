@@ -35,4 +35,20 @@ Finish time: 5pm
 
 Actual time needed to complete: 3 hours
 
-![Click to Open Lab6 Diagram](Lab_7_Diagram.png "Second Lab Diagram")
+![Click to Open Lab7 Diagram](Lab_7_Diagram.png "Second Lab Diagram")
+
+## Credit and Collaborations
+<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+Credit goes to the TAs and Daniel Shiraishi
+
+Name of feature: Lab 8: Implementing APIs
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 2pm
+
+Finish time: 5pm
+
+Actual time needed to complete: 3 hours
+
+![Click to Open Lab8 Diagram](Lab_8_Diagram.png "Third Lab Diagram")
