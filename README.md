@@ -52,3 +52,15 @@ Finish time: 5pm
 Actual time needed to complete: 3 hours
 
 ![Click to Open Lab8 Diagram](Lab_8_Diagram.png "Third Lab Diagram")
+
+Name of feature: Lab 9: Modularization
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 2pm
+
+Finish time: 3pm
+
+Actual time needed to complete: 1 hours
+
+![Click to Open Lab9 Diagram](Lab_9_Diagram.png "Fourth Lab Diagram")
