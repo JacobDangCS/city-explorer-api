@@ -1,6 +1,47 @@
 'use strict';
 
+/*
+
+let cache = {};
+
+async function getMovies(request, response, next){
+
+try{
+
+    let {cityName} = request.query
+
+    let key = cityName + 'movie'*
+    
+    if(cache[key] && (Date.now() - cache[key].timeStamp < 1000 * 60 * 60 * 24)){
+        console.log('Cache was hit, images present');
+        response.status(200).send(cache[key].data);
+    
+    } else{
+        console.log('Cache miss -- no images present')
+            let url = `https://api.themoviedb.org/3/search/movie?query=${cityName}&api_key=${process.env.MOVIE_API_KEY}`
+            let movieArray = await axios.get(url)
+            let resultArray = movieArray.data.results.map(film => new movieResult(film));
+            
+            //ADD TO THE CACHE OBJECT;
+            cache[key]={
+             data: resultArray
+             timeStamp: Date.now()
+            }
+            
+            response.send(resultArray)
+
+    
+    } catch(error){
+        next(error)
+    }
+
+  }    
+}
+*/
+
 const axios = require('axios');
+
+//const cache = require('/.cache')
 
 async function getMovies(request, response) {
 

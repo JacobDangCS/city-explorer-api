@@ -2,6 +2,8 @@
 
 const axios = require('axios');
 
+//const cache = require('/.cache')
+
 async function getWeather(request, response) {
     let { lat, lon } = request.query
     try {
