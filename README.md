@@ -64,3 +64,15 @@ Finish time: 3pm
 Actual time needed to complete: 1 hours
 
 ![Click to Open Lab9 Diagram](Lab_9_Diagram.png "Fourth Lab Diagram")
+
+Name of feature: Lab 10: Starter Code 
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 3pm
+
+Finish time: 5pm
+
+Actual time needed to complete: 2 hours
+
+![Click to Open Lab10 Diagram](Lab_10_Diagram.png "Fifth Lab Diagram")
